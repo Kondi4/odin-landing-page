@@ -1,5 +1,5 @@
 body {
-    padding: 0px 196px 0px
+    margin: 0;
 }
 
 ul {
@@ -23,21 +23,46 @@ body, .header, .information-section, .information-element, .quote-section, .sign
     justify-content: space-between;
 }
 
+.header, .information-section, .quote-section, .call-to-signup-section, .footer {
+    padding: 0 128px 0;
+}
+
 .header, .footer {
     color: white;
     background-color: #1F2937;
 }
 
-.information-section {
+.header {
+    padding-bottom: 80px;
+}
 
+.information-section {
+    padding-top: 12px;
+    padding-bottom: 80px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    padding-top: 96px;
+    padding-bottom: 64px;
+}
+
+.call-to-signup-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .signup-window, button {
     color: white;
     background-color: #3882F6;
+}
+
+.signup-window {
+
 }
 
