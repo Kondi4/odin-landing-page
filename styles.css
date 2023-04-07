@@ -1,0 +1,8 @@
+body, .header, .information-section, .information-element, .quote-section, .signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top, .header-bottom, .information, .signup-window {
+    display: flex;
+}
