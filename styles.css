@@ -13,6 +13,7 @@ a {
     color: white;
 }
 
+
 body, .header, .information-section, .information-element, .quote-section, .signup-text {
     display: flex;
     flex-direction: column;
@@ -28,11 +29,13 @@ body, .header, .information-section, .information-element, .quote-section, .sign
 }
 
 .header, .footer {
-    color: white;
+    color: #E5E7EB;
     background-color: #1F2937;
 }
 
+
 .header {
+    font-size: 18px;
     padding-bottom: 80px;
 }
 
@@ -57,9 +60,23 @@ body, .header, .information-section, .information-element, .quote-section, .sign
     padding-bottom: 24px;
 }
 
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .signup-window, button {
     color: white;
     background-color: #3882F6;
+    border-radius: 4px;
+}
+
+button {
+    font-weight: bold;
+    border: none;
+    padding: 6px 24px;
 }
 
 .signup-window {
