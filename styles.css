@@ -1,3 +1,18 @@
+body {
+    padding: 0px 196px 0px
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body, .header, .information-section, .information-element, .quote-section, .signup-text {
     display: flex;
     flex-direction: column;
@@ -5,4 +20,24 @@ body, .header, .information-section, .information-element, .quote-section, .sign
 
 .header-top, .header-bottom, .information, .signup-window {
     display: flex;
+    justify-content: space-between;
 }
+
+.header, .footer {
+    color: white;
+    background-color: #1F2937;
+}
+
+.information-section {
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.signup-window, button {
+    color: white;
+    background-color: #3882F6;
+}
+
