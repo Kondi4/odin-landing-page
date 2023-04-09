@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
 ul {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     list-style-type: none;
 }
 
@@ -14,7 +15,7 @@ a {
 }
 
 
-body, .header, .information-section, .information-element, .quote-section, .signup-text {
+body, .header, .header-title-section, .information-section, .information-element, .quote-section, .signup-text {
     display: flex;
     flex-direction: column;
 }
@@ -65,6 +66,11 @@ body, .header, .information-section, .information-element, .quote-section, .sign
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.header-secondary-text {
+    margin: 0;
 }
 
 .signup-window, button {
@@ -81,5 +87,22 @@ button {
 
 .signup-window {
 
+}
+
+.header-title-section {
+    align-items: baseline;
+    gap: 8px;
+}
+
+.header-image {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: gray;
+    min-height: 256px;
+    min-width: 512px;
+    margin: 48px 0 0 24px;
+    justify-content: center;
+    align-items: center;
 }
 
