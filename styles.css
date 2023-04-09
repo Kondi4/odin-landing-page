@@ -122,6 +122,7 @@ button {
 .information-element {
     justify-content: center;
     align-items: center;
+    gap: 8px;
 }
 
 .information-image {
