@@ -41,7 +41,6 @@ body, .header, .header-title-section, .information-section, .information-element
 }
 
 .information-section {
-    padding-top: 12px;
     padding-bottom: 80px;
 }
 
@@ -89,6 +88,7 @@ button {
 
 }
 
+
 .header-title-section {
     align-items: baseline;
     gap: 8px;
@@ -104,5 +104,39 @@ button {
     margin: 48px 0 0 24px;
     justify-content: center;
     align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+    text-align: center;
+}
+
+.information {
+    margin: 0 256px;
+    gap: 64px;
+    justify-content: center;
+}
+
+.information-element {
+    justify-content: center;
+    align-items: center;
+}
+
+.information-image {
+    height: 196px;
+    width: 196px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 16px;
+}
+
+.information-subtext {
+    width: 196px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
 }
 
