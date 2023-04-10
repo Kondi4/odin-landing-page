@@ -64,7 +64,7 @@ body, .header, .header-title-section, .information-section, .information-element
     margin-bottom: 0;
 }
 
-.header-secondary-text {
+.secondary-text {
     margin: 0;
 }
 
@@ -78,10 +78,6 @@ button {
     font-weight: bold;
     border: none;
     padding: 6px 24px;
-}
-
-.signup-window {
-
 }
 
 
@@ -156,3 +152,31 @@ button {
     font-weight: bold;
 }
 
+
+.signup-window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 96px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px 0;
+}
+
+.white-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    max-height: 30px;
+}
