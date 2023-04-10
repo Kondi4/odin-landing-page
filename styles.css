@@ -44,12 +44,6 @@ body, .header, .header-title-section, .information-section, .information-element
     padding-bottom: 80px;
 }
 
-.quote-section {
-    background-color: #E5E7EB;
-    padding-top: 96px;
-    padding-bottom: 64px;
-}
-
 .call-to-signup-section {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -139,5 +133,24 @@ button {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 96px 516px 64px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    display: flex;
+    justify-content: right;
+    margin: 8px 64px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
