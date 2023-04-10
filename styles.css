@@ -50,8 +50,10 @@ body, .header, .header-title-section, .information-section, .information-element
 }
 
 .footer {
+    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: center;
 }
 
 
